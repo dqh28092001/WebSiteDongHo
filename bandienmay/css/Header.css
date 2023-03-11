@@ -1,0 +1,201 @@
+.header{
+    width: 100%;
+    height: 170px;
+    background-color: #333333;
+}
+.header-top{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    background-color: #333333;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+.header-top-left{
+    width: 67%;
+}
+.htl-icon-left{
+    margin-left: 1pc;
+    
+}
+.htl-icon-left span{
+        font-size: 14px;
+}
+
+.htl-icon-right{
+    margin-left: 1pc;
+}
+.htl-icon-right-num span{
+    font-size: 14px;
+}
+.htl-icon-right-num:hover{
+    color: #c89979;
+    cursor: pointer;   
+} 
+
+/* ----------------------------------------------------------- */
+.header-top-right{
+    width: 45%;
+}
+.htr-icon{
+    margin-left: 30pc;
+    margin-top: 10px;
+}
+.htr-icon a {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+.htr-icon a:hover{
+    color: #c89979;   
+}
+/* ------------------------------------------------------------------------------ */
+.header-center{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 1pc;
+    justify-content: space-between;
+}
+.hct-img img{
+    width: 200px;
+    height: 67px;
+}
+/* // ----------HCT-input---------------------- */
+.hct-input{
+    width: 385px;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    margin-top: 11px;
+}
+.hct-input-box{
+    width: 100%;
+    padding: 10px 100px 17px 15px;
+    font-size: 15px;
+    outline: none;
+}
+.hct-input-button{
+    position: absolute;
+    right: 0;
+    top: 1px;
+    width: 65px;
+    height: 39px;
+    font-size: 1.2em;
+    border: none;
+    outline: none;
+    background-color: #c89979;
+    color: #fff;
+}
+.hct-input-button:hover{
+    box-shadow: inset 0 0 0 100px rgb(0 0 0 / 20%);
+    cursor: pointer;
+}
+/* // -------------------------Hct-ICON----------------------? */
+.hct-icon{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-right: 8pc;
+    margin-top: 12px;
+}
+.hct-icon-user a{
+    text-decoration: none;
+    color: #334862;
+    font-size: 17px;
+    font-weight: 700;
+}
+.hct-icon-heart{
+    font-size: 23px;
+}
+.hct-icon-heart span:nth-child(2) {
+    padding: 1px 5px;
+    background-color: #c89979;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    position: relative;
+    top: -15px;
+    font-size: 15px;
+}
+.hct-icon-heart  a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.hct-icon-cart{
+    font-size: 23px;
+}
+.hct-icon-cart span:nth-child(2) {
+    padding: 1px 5px;
+    background-color: #c89979;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    position: relative;
+    top: -40px;
+    left: 23px;
+    font-size: 15px;
+}
+.hct-icon-cart a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* // ---------------header-bottom-------------------------------------- */
+.header-bottom{
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    height: 3px;
+    background-color: #333333;
+    padding-left: 4pc;
+    padding-bottom: 3pc;
+    width: 100%;
+}
+.header-bottom ul {
+    display: flex;
+    margin-top: 10px;
+}
+.header-bottom ul a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: -7px;
+    
+}
+.header-bottom ul li {
+    list-style: none;
+    padding: 0 20px;
+}
+/* // -------------------HOVER VÔ THANH UL ------------------------------------- */
+ul#header-bottom-text a::after{
+    content: "";
+    height: 3px;
+    width: 0;
+    background:#C89979;
+    position: absolute;
+    top: 27px;
+    bottom: 0px;
+    left: 0;
+    transition: all 0.5s ease-in-out;
+}
+ul#header-bottom-text a:hover::after{
+    width: 70%;
+}
+ul#header-bottom-text a{
+    position: relative;
+}
+ul#header-bottom-text a:hover{
+    color: #C89979;
+    transition: all 0.2s ease-in-out;
+}
+.slick-list{
+    margin-top: 3pc;
+  }
+
+

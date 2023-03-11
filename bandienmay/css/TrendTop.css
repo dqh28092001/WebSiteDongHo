@@ -1,0 +1,105 @@
+.trend {
+    margin-top: 4pc;
+    height: 350px;
+    display: flex;
+}
+/* @keyframes example {
+    from {top: -40px; }
+    to {top: 0px; opacity: 0.6;}
+} */
+.trend-nam-top {
+    background-color: #333333;
+    height: 300px;
+    margin-left: 4pc;
+    display: flex;
+    width: 585px;
+    border-radius: 1pc;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;  
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+.trend-nam-top span{
+    margin-top: 5pc;
+    width: 19pc;
+}
+.trend-nam-top span h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size:35px;
+    color: #fff;
+    margin-left: 2pc;
+}
+.trend-nam-top span p {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 5pc;
+}
+.trend-nam-top img {
+    width: 16pc;
+    transform: rotate(2 deg);
+    transition: transform .5s ease;
+}
+.trend-nam-top h2 {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 40px;
+}
+.trend-nam-top img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+/* @keyframes examples {
+    from {top: -40px; }
+    to {top: 0px;opacity: 0.6;}
+} */
+.trend-nu-top {
+    background-color: #333333;
+    width: 50%;
+    height: 300px;
+    width: 585px;
+    margin-left: 3pc;
+    margin-right: 4pc;
+    display: flex;
+    border-radius: 1pc;
+    position: relative;
+    animation-name: examples;
+    animation-duration: 2s;  
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+}
+.trend-nu-top span {
+    margin-top: 5pc;
+    width: 19pc;
+}
+.trend-nu-top span h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size:35px;
+    color: #fff;
+    margin-left: 2pc;
+}
+.trend-nu-top span p{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 5pc;
+}
+.trend-nu-top img {
+    width: 19pc;
+    transform: rotate(10deg);
+    transition: transform .5s ease;
+}
+.trend-nu-top h2 {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 40px;
+}   
+.trend-nu-top img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}

@@ -1,0 +1,92 @@
+.chart {
+    margin-top: 5pc;
+    background-color: red;
+    width: 100%;
+    height: 200px;
+}
+
+.map-infome {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 7pc;
+}
+
+.map-info {
+    display: flex;
+    margin-top: 5pc;
+    /* padding: 0 2pc; */
+}
+.map-info-img img {
+    width: 6pc;
+}
+.map-info-text {
+    margin-left: 1pc;
+}
+.map-info-text h3 {
+    color: #1c1c1c;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25em;
+    margin-right: 3pc;
+    text-align: initial;
+}
+.map-info-text  span {
+    text-align: left;
+    display: flex;
+    color: #777;
+    font-family: inherit;
+    flex-wrap: wrap;
+}
+.phone {
+    font-weight: 700;
+}
+.phone:hover {
+    cursor: pointer;
+    color: burlywood;
+}
+/* // ------------------------------------------------- */
+.map-input {
+    margin-top: 5pc;
+}
+.map-input-left {
+    padding-bottom: 1pc; 
+}
+.map-input-left input {
+    width: 380px;
+    height: 39px;
+    border: none;
+    background-color: #f1f1f1;
+    margin-right: 1pc;
+    padding: 1pc;
+}
+.map-input-right {
+    padding-bottom: 1pc;
+}
+.map-input-right input {
+    width: 380px;
+    height: 39px;
+    border: none;
+    background-color: #f1f1f1;
+    margin-right: 1pc;
+    padding: 1pc;
+
+}
+.map-input-bottom input {
+    box-sizing: border-box;
+    border: none;
+    padding: 0 0.75em;
+    height: 8.507em;
+    padding-bottom: 5pc;
+    background-color: #f1f1f1;
+    margin-right: 1pc;
+    font-size: .97em;
+    width: 57.5%;
+}
+.map-button button{
+    margin-top: 2pc;
+    background-color: #c89979;
+    width: 385px;
+    height: 40px;
+    border: none;
+    color: #fff;
+}

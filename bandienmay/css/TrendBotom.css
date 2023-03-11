@@ -1,0 +1,93 @@
+.trend {
+    margin-top: 6pc;
+    height: 350px;
+    display: flex;
+}
+
+.trend-nam {
+    background-color: #333333;
+    height: 300px;
+    margin-left: 4pc;
+    display: flex;
+    width: 585px;
+    border-radius: 1pc;
+    position: relative;
+    animation-name: trend-nam;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+.trend-nam span{
+    margin-top: 6pc;
+    width: 19pc;
+}
+.trend-nam span h1 {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 5px;
+    text-align: center;
+}
+.trend-nam span p {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    font-size: 2pc;
+}
+.trend-nam img {
+    width: 16pc;
+    margin-top: 1pc;
+    transition: transform .5s ease;
+}
+.trend-nam h2 {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 40px;
+}
+.trend-nam img:hover {
+    transform: scale(1.2);
+}
+.trend-nu {
+    background-color: #333333;
+    width: 50%;
+    height: 300px;
+    width: 585px;
+    margin-left: 3pc;
+    margin-right: 4pc;
+    display: flex;
+    border-radius: 1pc;
+    position: relative;
+  animation-name: trend-nu;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+.trend-nu span {
+    margin-top: 6pc;
+    width: 19pc;
+}
+.trend-nu span h1 {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 5px;
+    text-align: center;
+}
+.trend-nu span p {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    font-size: 2pc;
+}
+.trend-nu img{
+    width: 19pc;
+    transition: transform .5s ease;
+}
+.trend-nu h2 {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 40px;
+}
+.trend-nu img:hover {
+    transform: scale(1.2);
+}
